@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Younglings file upload</title>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <img src="images/younglings-logo.png" alt="Younglings" class="logo">
+  </header>
+  <body>
+    <div class="container">
+      <input type="file" id="photo" multiple>
+      <p>Drag your files here or click in this area.</p>
+      <br>
+      <br>
+      <button onclick="uploadImage(), myFunction()" onclick="myFunction()">Upload</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+  <footer>
+    <img src="images/firebase-logo.png" alt="Firebase">
+  </footer>
+</html>
